@@ -1,0 +1,13 @@
+{
+    "name": "icemad/tree-nodes",
+    "authors": [
+        {
+            "name": "MarcDuboc",
+            "email": "marc.duboc@cifacom.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}

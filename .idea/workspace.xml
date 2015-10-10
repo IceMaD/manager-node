@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa73a50-c14b-48e7-a560-f344730b17e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ManagerNode/BinaryNode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ManagerNode/Node.php" afterPath="$PROJECT_DIR$/src/ManagerNode/Node.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="manager-node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,22 +26,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7523511">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.6739812">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="28" />
+              <folding>
+                <element signature="e#60#87#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,16 +42,28 @@
         <entry file="file://$PROJECT_DIR$/src/ManagerNode/Node.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <caret line="131" column="11" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="11" />
               <folding>
-                <element signature="e#334#457#0#PHP" expanded="true" />
-                <element signature="e#577#1453#0#PHP" expanded="true" />
-                <element signature="e#1653#1765#0#PHP" expanded="true" />
-                <element signature="e#1806#1879#0#PHP" expanded="true" />
-                <element signature="e#1947#2056#0#PHP" expanded="true" />
-                <element signature="e#2100#2165#0#PHP" expanded="true" />
-                <element signature="e#2272#2379#0#PHP" expanded="true" />
-                <element signature="e#2462#2532#0#PHP" expanded="true" />
+                <element signature="e#342#465#0#PHP" expanded="true" />
+                <element signature="e#585#1461#0#PHP" expanded="true" />
+                <element signature="e#1661#1773#0#PHP" expanded="true" />
+                <element signature="e#1814#1887#0#PHP" expanded="true" />
+                <element signature="e#1955#2064#0#PHP" expanded="true" />
+                <element signature="e#2108#2173#0#PHP" expanded="true" />
+                <element signature="e#2280#2387#0#PHP" expanded="true" />
+                <element signature="e#2470#2540#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BinaryNode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ManagerNode/BinaryNode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+              <folding>
+                <element signature="e#94#266#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,9 +77,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ManagerNode/Node.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/ManagerNode/Node.php" />
+        <option value="$PROJECT_DIR$/src/ManagerNode/BinaryNode.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -108,8 +116,8 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
     <panes>
@@ -232,23 +240,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ManagerNode/Node.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
-            <element signature="e#334#457#0#PHP" expanded="true" />
-            <element signature="e#577#1453#0#PHP" expanded="true" />
-            <element signature="e#1653#1765#0#PHP" expanded="true" />
-            <element signature="e#1806#1879#0#PHP" expanded="true" />
-            <element signature="e#1947#2056#0#PHP" expanded="true" />
-            <element signature="e#2100#2165#0#PHP" expanded="true" />
-            <element signature="e#2272#2379#0#PHP" expanded="true" />
-            <element signature="e#2462#2532#0#PHP" expanded="true" />
+            <element signature="e#60#87#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -258,23 +251,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding>
-            <element signature="e#334#457#0#PHP" expanded="true" />
-            <element signature="e#577#1453#0#PHP" expanded="true" />
-            <element signature="e#1653#1765#0#PHP" expanded="true" />
-            <element signature="e#1806#1879#0#PHP" expanded="true" />
-            <element signature="e#1947#2056#0#PHP" expanded="true" />
-            <element signature="e#2100#2165#0#PHP" expanded="true" />
-            <element signature="e#2272#2379#0#PHP" expanded="true" />
-            <element signature="e#2462#2532#0#PHP" expanded="true" />
+            <element signature="e#342#465#0#PHP" expanded="true" />
+            <element signature="e#585#1461#0#PHP" expanded="true" />
+            <element signature="e#1661#1773#0#PHP" expanded="true" />
+            <element signature="e#1814#1887#0#PHP" expanded="true" />
+            <element signature="e#1955#2064#0#PHP" expanded="true" />
+            <element signature="e#2108#2173#0#PHP" expanded="true" />
+            <element signature="e#2280#2387#0#PHP" expanded="true" />
+            <element signature="e#2470#2540#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -283,6 +268,43 @@
         <state vertical-scroll-proportion="0.7523511">
           <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManagerNode/Node.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="4" selection-end-line="131" selection-end-column="11" />
+          <folding>
+            <element signature="e#342#465#0#PHP" expanded="true" />
+            <element signature="e#585#1461#0#PHP" expanded="true" />
+            <element signature="e#1661#1773#0#PHP" expanded="true" />
+            <element signature="e#1814#1887#0#PHP" expanded="true" />
+            <element signature="e#1955#2064#0#PHP" expanded="true" />
+            <element signature="e#2108#2173#0#PHP" expanded="true" />
+            <element signature="e#2280#2387#0#PHP" expanded="true" />
+            <element signature="e#2470#2540#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ManagerNode/BinaryNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+          <folding>
+            <element signature="e#94#266#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6739812">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <element signature="e#60#87#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

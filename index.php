@@ -2,6 +2,7 @@
 
 $loader = require __DIR__ . '/vendor/autoload.php';
 
+use ManagerNode\BinaryNode;
 use ManagerNode\Node;
 
 // Creating Nodes
@@ -14,7 +15,7 @@ $passeport = new Node(51, 'form.identity_proof.passeport'); // These two steps h
 $rectoId = new Node(51, 'form.identity_proof.identity-recto'); // These two steps have equal priority, we'll let the user decide which one he want
 $versoId = new Node(52, 'form.identity_proof.identity-verso');
 $domicile = new Node(60, 'form.justification.dom');
-$signature = new Node(70, 'form.signature');
+$signature = new BinaryNode(70, 'form.signature', 'form.error');
 
 // Assembling nodes
 $root->addChildren($patrimony);
@@ -38,7 +39,7 @@ $choice->setValidity(true);
 $passeport->setValidity(false);
 $rectoId->setValidity(true);
 $versoId->setValidity(true);
-$domicile->setValidity(false);
+$domicile->setValidity(true);
 
 $signature->setValidity(true);
 

@@ -7,24 +7,24 @@ class Node
     /**
      * @var Integer
      */
-    private $priority;
+    protected $priority;
 
     /**
      * @var Node[]
      */
-    private $children = [];
+    protected $children = [];
 
     /**
      * Mock the symfony validator
      *
      * @var Boolean
      */
-    private $isValid = true;
+    protected $isValid = true;
 
     /**
      * @var String
      */
-    private $name;
+    protected $name;
 
     public function __construct($priority, $name)
     {

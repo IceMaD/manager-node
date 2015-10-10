@@ -71,6 +71,12 @@ class Node
         return end($scores);
     }
 
+    /**
+     * Prioritize a step to force access to this even if another one have a bigger
+     * This method allow to come back in an already validated node
+     *
+     * @return $this
+     */
     public function prioritize()
     {
         $this->priority = $this->priority * 100;

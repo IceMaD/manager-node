@@ -46,4 +46,7 @@ $signature->setValidity(true);
 // Go !
 $best = $root->tryAccess($signature->prioritize());
 
+// Want to validate only uplodad parts? Easy !
+// $best = $choice->tryAccess($signature->prioritize());
+
 var_dump($best->getName());
